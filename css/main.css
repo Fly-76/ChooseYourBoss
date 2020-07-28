@@ -89,6 +89,17 @@ textarea {
 
 /************** Extra small  ::  viewports < 576 **************/
   /*** Extra small  ::  viewports < 576   ::  General rules ***/
+  nav {
+    text-align: center;
+    position: relative;
+  }
+  
+  #burger {
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+  }
+
   /*** Extra small  ::  viewports < 576   ::  Utility class ***/
   /*** Extra small  ::  viewports < 576   ::  Common class  ***/
 
