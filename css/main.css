@@ -92,11 +92,37 @@ textarea {
   nav {
     text-align: center;
     padding-top: 15px;
-    height:70px;
+    height:90px;
     position: relative;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
-  
+
+  header {
+    /* background-color: burlywood; */
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  h1  {
+    font-size: 46px;
+    /* font-family: 'Arimo', sans-serif; */
+    font-family: 'Mitr', sans-serif;
+    line-height: 1em;
+  }
+
+  p {
+    color: #212121;
+    font-size: 27px;
+    font-family: arial,sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 28px;
+    background: #4d22ff;
+    color: #ffffff;
+  }
+
   #burger {
     position: absolute;
     top: 20px;
@@ -108,6 +134,15 @@ textarea {
   }
 
   /*** Extra small  ::  viewports < 576   ::  Utility class ***/
+  .btn {
+    padding: 5px 25px;
+    border-radius: 25px;
+  }
+  
+  .btn:hover {
+    background-color: #9C3848;
+    color: white;
+  }
   
   /*** Extra small  ::  viewports < 576   ::  Common class  ***/
 
