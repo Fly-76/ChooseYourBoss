@@ -91,16 +91,24 @@ textarea {
   /*** Extra small  ::  viewports < 576   ::  General rules ***/
   nav {
     text-align: center;
+    padding-top: 15px;
+    height:70px;
     position: relative;
+    background-color: aquamarine;
   }
   
   #burger {
     position: absolute;
-    top: 0.5em;
-    left: 0.5em;
+    top: 20px;
+    left: 20px;
+  }
+  #logo {
+    height: 40px;
+    width: auto;
   }
 
   /*** Extra small  ::  viewports < 576   ::  Utility class ***/
+  
   /*** Extra small  ::  viewports < 576   ::  Common class  ***/
 
 /************** Extra small  ::  viewports >= 576 *************/
