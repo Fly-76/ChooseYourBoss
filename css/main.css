@@ -87,12 +87,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* 
+   4d22ff bleu je m'inscris
+   2b345d bleu encart
+   22ffdd bleu candidat
+   162049 bleu texte 
+   */
+   
 /************** Extra small  ::  viewports < 576 **************/
   /*** Extra small  ::  viewports < 576   ::  General rules ***/
+  body {
+    margin: 0;
+    padding: 0px;
+  }
+
   nav {
     text-align: center;
     padding-top: 15px;
-    height:90px;
+    height:80px;
     position: relative;
     /* background-color: aquamarine; */
   }
@@ -101,14 +113,37 @@ textarea {
     /* background-color: burlywood; */
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 72px;
   }
+  
+  main {
+    text-align: center;
+  }
+  
   h1  {
     font-size: 46px;
     /* font-family: 'Arimo', sans-serif; */
     font-family: 'Mitr', sans-serif;
     line-height: 1em;
   }
-
+  
+  h4  {
+    font-size: 32px;
+    color: #ffffff;
+    /* font-family: 'Arimo', sans-serif; */
+    /* height: auto; */
+    font-family: 'Mitr', sans-serif;
+    line-height: 0.3em;
+  }
+  
+  h5  {
+    font-size: 21px;
+    color: #22ffdd;
+    /* font-family: 'Arimo', sans-serif; */
+    font-family: 'Mitr', sans-serif;
+    line-height: 0.3em;
+  }
+  
   p {
     color: #212121;
     font-size: 27px;
@@ -128,14 +163,24 @@ textarea {
     top: 20px;
     left: 20px;
   }
+
   #logo {
     height: 40px;
     width: auto;
   }
 
+  #insert {
+    height: 348px;
+    padding: 20px;
+  }
+
   /*** Extra small  ::  viewports < 576   ::  Utility class ***/
+  .secondBg {
+    background-color: #2b345d;
+  }
+  
   .btn {
-    padding: 5px 25px;
+    padding: 6px 25px;
     border-radius: 25px;
   }
   
@@ -143,6 +188,7 @@ textarea {
     background-color: #9C3848;
     color: white;
   }
+  
   
   /*** Extra small  ::  viewports < 576   ::  Common class  ***/
 
