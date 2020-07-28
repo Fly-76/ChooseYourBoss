@@ -119,10 +119,32 @@ textarea {
   main {
     text-align: center;
   }
-  
+
+  section {
+    margin-top: -32px;
+  }
+
   h1  {
     font-size: 46px;
+    margin-top: 30px;
     /* font-family: 'Arimo', sans-serif; */
+    color: #162049;
+    font-family: 'Mitr', sans-serif;
+    line-height: 1em;
+  }
+ 
+  h2  {
+    font-size: 38px;
+    /* font-family: 'Arimo', sans-serif; */
+    color: #162049;
+    font-family: 'Mitr', sans-serif;
+    line-height: 1em;
+  }
+  
+  h3  {
+    font-size: 18px;
+    /* font-family: 'Arimo', sans-serif; */
+    color: #162049;
     font-family: 'Mitr', sans-serif;
     line-height: 1em;
   }
@@ -159,6 +181,7 @@ textarea {
   }
 
   #burger {
+    background-color: #ffffff;;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -175,20 +198,37 @@ textarea {
   }
 
   /*** Extra small  ::  viewports < 576   ::  Utility class ***/
+  .smallP {
+    font-size: 18px;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+  }
+
+  .picto {
+    max-width: 250px;
+    height: auto;
+  }
+
   .secondBg {
     background-color: #2b345d;
   }
+
+  .thirdBg {
+    background-color: #eee9fa;
+  }
   
   .btn {
+    padding: 7px 25px;
+    border-radius: 25px;
+  }  
+
+  .smallbtn {
     padding: 6px 25px;
     border-radius: 25px;
+    font-size: 22px;
   }
-  
-  .btn:hover {
-    background-color: #9C3848;
-    color: white;
-  }
-  
+
   
   /*** Extra small  ::  viewports < 576   ::  Common class  ***/
 
