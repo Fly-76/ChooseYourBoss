@@ -87,12 +87,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* 
+   4d22ff bleu je m'inscris
+   2b345d bleu encart
+   22ffdd bleu candidat
+   162049 bleu texte 
+   */
+   
 /************** Extra small  ::  viewports < 576 **************/
   /*** Extra small  ::  viewports < 576   ::  General rules ***/
+  body {
+    margin: 0;
+    padding: 0px;
+  }
+
   nav {
     text-align: center;
     padding-top: 15px;
-    height:90px;
+    height:80px;
     position: relative;
     /* background-color: aquamarine; */
   }
@@ -101,14 +113,59 @@ textarea {
     /* background-color: burlywood; */
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 72px;
   }
+  
+  main {
+    text-align: center;
+  }
+
+  section {
+    margin-top: -32px;
+  }
+
   h1  {
     font-size: 46px;
+    margin-top: 30px;
     /* font-family: 'Arimo', sans-serif; */
+    color: #162049;
     font-family: 'Mitr', sans-serif;
     line-height: 1em;
   }
-
+ 
+  h2  {
+    font-size: 38px;
+    /* font-family: 'Arimo', sans-serif; */
+    color: #162049;
+    font-family: 'Mitr', sans-serif;
+    line-height: 1em;
+  }
+  
+  h3  {
+    font-size: 18px;
+    /* font-family: 'Arimo', sans-serif; */
+    color: #162049;
+    font-family: 'Mitr', sans-serif;
+    line-height: 1em;
+  }
+  
+  h4  {
+    font-size: 32px;
+    color: #ffffff;
+    /* font-family: 'Arimo', sans-serif; */
+    /* height: auto; */
+    font-family: 'Mitr', sans-serif;
+    line-height: 0.3em;
+  }
+  
+  h5  {
+    font-size: 21px;
+    color: #22ffdd;
+    /* font-family: 'Arimo', sans-serif; */
+    font-family: 'Mitr', sans-serif;
+    line-height: 0.3em;
+  }
+  
   p {
     color: #212121;
     font-size: 27px;
@@ -124,25 +181,54 @@ textarea {
   }
 
   #burger {
+    background-color: #ffffff;;
     position: absolute;
     top: 20px;
     left: 20px;
   }
+
   #logo {
     height: 40px;
     width: auto;
   }
 
+  #insert {
+    height: 348px;
+    padding: 20px;
+  }
+
   /*** Extra small  ::  viewports < 576   ::  Utility class ***/
-  .btn {
-    padding: 5px 25px;
-    border-radius: 25px;
+  .smallP {
+    font-size: 18px;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+  }
+
+  .picto {
+    max-width: 250px;
+    height: auto;
+  }
+
+  .secondBg {
+    background-color: #2b345d;
+  }
+
+  .thirdBg {
+    background-color: #eee9fa;
   }
   
-  .btn:hover {
-    background-color: #9C3848;
-    color: white;
+  .btn {
+    padding: 7px 25px;
+    border-radius: 25px;
+  }  
+
+  .smallbtn {
+    padding: 6px 25px;
+    border-radius: 25px;
+    font-size: 22px;
   }
+
   
   /*** Extra small  ::  viewports < 576   ::  Common class  ***/
 
