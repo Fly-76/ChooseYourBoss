@@ -209,6 +209,12 @@ textarea {
     height: auto;
   }
 
+  .smallPicto {
+    max-width: 200px;
+    height: auto;
+  }
+
+  
   .secondBg {
     background-color: #2b345d;
   }
