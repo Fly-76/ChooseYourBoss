@@ -120,6 +120,15 @@ textarea {
     text-align: center;
   }
 
+  footer {
+    /* text-align:  */
+    background-color: #eeeeee;
+    width: 80%;
+    margin: auto;
+    padding-left: 15px;
+    padding-top: 30px;
+  }
+
   section {
     margin-top: -32px;
   }
@@ -214,7 +223,6 @@ textarea {
     height: auto;
   }
 
-  
   .secondBg {
     background-color: #2b345d;
   }
