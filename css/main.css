@@ -96,9 +96,9 @@ textarea {
    
 /************** Extra small  ::  viewports < 576 **************/
   /*** Extra small  ::  viewports < 576   ::  General rules ***/
+
   body {
-    margin: 0;
-    padding: 0px;
+    background-image:url(../img/splash-general-3.png);
   }
 
   nav {
@@ -126,7 +126,6 @@ textarea {
 
   h1  {
     font-size: 46px;
-    margin-top: 30px;
     /* font-family: 'Arimo', sans-serif; */
     color: #162049;
     font-family: 'Mitr', sans-serif;
