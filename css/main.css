@@ -93,9 +93,34 @@ textarea {
    22ffdd bleu candidat
    162049 bleu texte 
    */
-   
+
+/************** define the fonts to be used *******************/
+@font-face {
+  font-family: 'Gotham';
+  src: url('../font/GothamBlack.woff2') format('woff2'),
+      url('../font/GothamBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url('../font/Muli.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 /************** Extra small  ::  viewports < 576 **************/
+
   /*** Extra small  ::  viewports < 576   ::  General rules ***/
+  * {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
 
   body {
     background-image:url(../img/splash-general-3.png);
@@ -106,11 +131,9 @@ textarea {
     padding-top: 15px;
     height:80px;
     position: relative;
-    /* background-color: aquamarine; */
   }
 
   header {
-    /* background-color: burlywood; */
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 72px;
@@ -121,7 +144,6 @@ textarea {
   }
 
   footer {
-    /* text-align:  */
     background-color: #eeeeee;
     width: 80%;
     margin: auto;
@@ -129,61 +151,58 @@ textarea {
     padding-top: 30px;
   }
 
+  footer > p {
+    font-size: 16px;
+  }
+
   section {
     margin-top: -32px;
   }
 
+  h1, h2, h3, h4, h5 {
+    font-family: 'Gotham';
+    font-weight: 900;
+    font-style: normal;  
+  }
+
   h1  {
     font-size: 46px;
-    /* font-family: 'Arimo', sans-serif; */
     color: #162049;
-    font-family: 'Mitr', sans-serif;
     line-height: 1em;
   }
  
   h2  {
-    font-size: 38px;
-    /* font-family: 'Arimo', sans-serif; */
+    font-size: 36px;
     color: #162049;
-    font-family: 'Mitr', sans-serif;
     line-height: 1em;
   }
   
   h3  {
     font-size: 18px;
-    /* font-family: 'Arimo', sans-serif; */
     color: #162049;
-    font-family: 'Mitr', sans-serif;
     line-height: 1em;
   }
   
   h4  {
-    font-size: 32px;
+    font-size: 36px;
     color: #ffffff;
-    /* font-family: 'Arimo', sans-serif; */
-    /* height: auto; */
-    font-family: 'Mitr', sans-serif;
     line-height: 0.3em;
   }
   
   h5  {
-    font-size: 21px;
+    font-size: 20px;
     color: #22ffdd;
-    /* font-family: 'Arimo', sans-serif; */
-    font-family: 'Mitr', sans-serif;
     line-height: 0.3em;
   }
   
   p {
     color: #212121;
-    font-size: 27px;
-    font-family: arial,sans-serif;
+    font-size: 26px;
   }
 
   a {
     text-decoration: none;
-    font-family: arial,sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     background: #4d22ff;
     color: #ffffff;
   }
