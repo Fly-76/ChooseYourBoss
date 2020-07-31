@@ -137,6 +137,10 @@
       /* background-color: crimson; */
     }
   
+    ul {
+      display: none;
+    }
+
     header {
       /* padding-left: 15px;
       padding-right: 15px; */
@@ -146,6 +150,11 @@
       padding-top: 15px;
       margin: auto;
       /* background-color: goldenrod; */
+    }
+
+    header img {
+      width: 500px;
+      height: auto;
     }
     
     header > p {
@@ -232,6 +241,27 @@
       background: #4d22ff;
       color: #ffffff;
     }
+
+    ul {
+      display: none;
+      list-style-type: none;
+      justify-content: flex-end;
+      margin: 1em;  
+    }
+
+    ul a {
+      margin-top: 5em;
+      text-decoration: none;
+      font-size: 18px;
+      background: #ffffffff;
+      color: #000000;
+    }
+
+    ul li {
+      padding-left: 5px;
+      margin-left: 10px;
+    }
+
   
     /*** Extra small  ::  viewports < 576   ::  Utility class ***/
     .statistiques {
@@ -289,7 +319,20 @@
       border-radius: 25px;
       font-size: 20px;
     }
-  
+
+    .flex {
+      display: flex;
+    }
+
+    .center {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .desktopOnly {
+      display: none;
+    }
+
     /*** Extra small  ::  viewports < 576   ::  Specific class ***/
     #burger {
       margin: 0;
@@ -332,10 +375,43 @@
   /************** Extra small  ::  viewports < 1200px ***********/
   @media screen and (min-width: 1200px){
     /*** Extra large  ::  viewports > 1200  ::  General rules ***/
+    
+    header {
+      display: flex;
+    }
+
+    .desktopOnly {
+      display: block;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    #burger {
+      display: none;
+    }
+
+    nav > div {
+      display: flex;
+      justify-content: flex-end;
+      line-height: 0.8em;
+    }
+
+    #logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  
+    .aCnx {
+      background: #4d22ff;
+      color: #ffffff;
+    }
+
     /*** Extra large  ::  viewports > 1200  ::  Utility class ***/
     /*** Extra large  ::  viewports > 1200  ::  Common class  ***/
   }
-  
   
   /* ========================================================================== */
   /*
