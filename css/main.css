@@ -292,8 +292,13 @@
     }
   
     .smallPicto {
-      max-width: 200px;
+      /* max-width: 200px; */
+      width: 200px;
       height: auto;
+    }
+
+    .bigPicto {
+      width: 250px;
     }
   
     .secondBg {
@@ -329,6 +334,10 @@
       align-items: center;
     }
 
+    .wrap {
+      flex-wrap: wrap;
+    }
+
     .desktopOnly {
       display: none;
     }
@@ -353,7 +362,18 @@
       margin: auto;
       vertical-align: auto;
     }
+
+    @media screen and (min-width: 530px){
+      article {
+        max-width: 360px ;
+      }
+      #insert {
+        display: flex;
+        justify-content: space-around;
+        height: 8.2em;
+      }
   
+
   /************** Extra small  ::  viewports >= 576 *************/
   @media screen and (min-width: 576px){
     /******* Medium   ::  viewports < 768   ::  General rules ***/
