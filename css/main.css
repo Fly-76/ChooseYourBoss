@@ -183,7 +183,8 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 30px;
-      height: 25em;
+      /* height: 25em; */
+      height: auto;
     }
   
     footer > p {
@@ -307,11 +308,16 @@
   
     #algo {
       background-color: #eee9fa;
-      height: 99em;
+      /* height: 99em; */
+      height: auto;
+      padding-bottom: 30px;
+      margin-bottom: 50px;
     }
 
     #job {
-      height: 100em;
+      /* height: 100em; */
+      height: auto;
+      margin-bottom: 50px;
     }
 
     .btn {
@@ -331,6 +337,15 @@
 
     .center {
       justify-content: center;
+      align-items: center;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    .spaced {
+      justify-content: space-around;
       align-items: center;
     }
 
@@ -367,6 +382,7 @@
       article {
         max-width: 360px ;
       }
+
       #insert {
         display: flex;
         justify-content: space-around;
