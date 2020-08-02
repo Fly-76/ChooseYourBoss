@@ -119,7 +119,6 @@
       font-family: 'Muli';
       font-style: normal;
       font-weight: 400;
-      font-display: swap;
       color: #162049;
       padding: 0%;
       margin: 0%;
@@ -375,7 +374,6 @@
       height: 21em;
       padding-top: 3em;
       margin: auto;
-      vertical-align: auto;
     }
 
     @media screen and (min-width: 530px){
@@ -619,5 +617,6 @@
       page-break-after: avoid;
     }
   }
+}
   
   
